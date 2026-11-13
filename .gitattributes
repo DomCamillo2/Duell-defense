@@ -1,0 +1,13 @@
+# Unity emits empty YAML string values with a trailing space.
+Assets/**/*.meta whitespace=-blank-at-eol
+# Keep byte-exact audit evidence; Python's CSV writer uses CRLF by default.
+Tools/BotFeedbackHarness/Results/v1.7/*.csv whitespace=cr-at-eol
+# Preserve the independently compiled audit sources, including their final blank line.
+Tools/FreePlacementAuditV17/WireAudit.cs whitespace=-blank-at-eof
+Tools/FreePlacementAuditV17/verify_geometry.py whitespace=-blank-at-eof
+
+# Preserve byte-bound Unity audit logs exactly.
+Docs/ResearchEvidence/terrain-v05/*.log whitespace=-blank-at-eol,cr-at-eol
+
+# Unity scene YAML uses the same empty scalar formatting as its metadata.
+Assets/**/*.unity whitespace=-blank-at-eol

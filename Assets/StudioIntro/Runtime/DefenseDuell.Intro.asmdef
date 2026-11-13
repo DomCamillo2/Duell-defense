@@ -1,0 +1,6 @@
+{
+  "name": "DefenseDuell.Intro",
+  "rootNamespace": "DefenseDuell.Intro",
+  "references": ["Unity.ugui", "Unity.InputSystem"],
+  "autoReferenced": true
+}

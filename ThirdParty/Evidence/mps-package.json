@@ -1,0 +1,24 @@
+{
+  "name": "com.unity.services.multiplayer",
+  "version": "2.4.1",
+  "unity": "6000.0",
+  "unityRelease": null,
+  "dependencies": {
+    "com.unity.transport": "2.7.4",
+    "com.unity.collections": "2.6.8",
+    "com.unity.services.qos": "1.5.1",
+    "com.unity.services.core": "1.18.0",
+    "com.unity.services.wire": "1.5.1",
+    "com.unity.services.deployment": "1.7.2",
+    "com.unity.nuget.newtonsoft-json": "3.2.2",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.services.authentication": "3.8.0"
+  },
+  "dist": {
+    "shasum": "cf2613f41536108db175b1a0e42c0265e6a85142",
+    "tarball": "https://download.packages.unity.com/com.unity.services.multiplayer/-/com.unity.services.multiplayer-2.4.1.tgz"
+  },
+  "license": null,
+  "retrieved": "2026-11-10",
+  "source": "https://packages.unity.com/com.unity.services.multiplayer"
+}

@@ -1,0 +1,74 @@
+{
+  "default": {
+    "cmd": [
+      "/Applications/Unity/Hub/Editor/6000.6.6f1/Unity.app/Contents/Resources/Scripting/DotNetSdk/dotnet",
+      "/tmp/defense-net15/duelfinalbin/DriverModel15.dll",
+      "--duel-host",
+      "--duel-cycles",
+      "1",
+      "--duel-complete-matches",
+      "--duel-rapid-buy"
+    ],
+    "DUEL_MODEL_OUTPUT": "/tmp/defense-net15/duel-golden-final/default"
+  },
+  "rules": {
+    "cmd": [
+      "/Applications/Unity/Hub/Editor/6000.6.6f1/Unity.app/Contents/Resources/Scripting/DotNetSdk/dotnet",
+      "/tmp/defense-net15/duelfinalbin/DriverModel15.dll",
+      "--duel-host",
+      "--duel-cycles",
+      "1",
+      "--duel-host-rules",
+      "--duel-waves",
+      "1",
+      "--duel-start-gold",
+      "0"
+    ],
+    "DUEL_MODEL_OUTPUT": "/tmp/defense-net15/duel-golden-final/rules"
+  },
+  "start200": {
+    "cmd": [
+      "/Applications/Unity/Hub/Editor/6000.6.6f1/Unity.app/Contents/Resources/Scripting/DotNetSdk/dotnet",
+      "/tmp/defense-net15/duelfinalbin/DriverModel15.dll",
+      "--duel-host",
+      "--duel-cycles",
+      "1",
+      "--duel-host-rules-start-only",
+      "--duel-waves",
+      "200",
+      "--duel-start-gold",
+      "1000"
+    ],
+    "DUEL_MODEL_OUTPUT": "/tmp/defense-net15/duel-golden-final/start200"
+  },
+  "big": {
+    "cmd": [
+      "/Applications/Unity/Hub/Editor/6000.6.6f1/Unity.app/Contents/Resources/Scripting/DotNetSdk/dotnet",
+      "/tmp/defense-net15/duelfinalbin/DriverModel15.dll",
+      "--duel-host",
+      "--duel-cycles",
+      "1",
+      "--duel-host-rules",
+      "--duel-waves",
+      "1",
+      "--duel-start-gold",
+      "1000000000000000000000000000000"
+    ],
+    "DUEL_MODEL_OUTPUT": "/tmp/defense-net15/duel-golden-final/big"
+  },
+  "rules3": {
+    "cmd": [
+      "/Applications/Unity/Hub/Editor/6000.6.6f1/Unity.app/Contents/Resources/Scripting/DotNetSdk/dotnet",
+      "/tmp/defense-net15/duelfinalbin/DriverModel15.dll",
+      "--duel-host",
+      "--duel-cycles",
+      "1",
+      "--duel-host-rules",
+      "--duel-waves",
+      "3",
+      "--duel-start-gold",
+      "1000"
+    ],
+    "DUEL_MODEL_OUTPUT": "/tmp/defense-net15/duel-golden-final/rules3"
+  }
+}

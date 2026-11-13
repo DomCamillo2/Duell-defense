@@ -1,0 +1,7 @@
+{
+  "name": "DefenseDuell.Editor.Tests",
+  "references": ["DefenseDuell.Editor"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

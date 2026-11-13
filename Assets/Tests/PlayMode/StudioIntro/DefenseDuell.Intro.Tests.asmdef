@@ -1,0 +1,11 @@
+{
+  "name": "DefenseDuell.Intro.Tests",
+  "references": [
+    "DefenseDuell.Intro",
+    "Unity.ugui"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "autoReferenced": false
+}

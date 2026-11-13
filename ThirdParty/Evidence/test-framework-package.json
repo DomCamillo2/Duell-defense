@@ -1,0 +1,13 @@
+{
+  "name": "com.unity.test-framework",
+  "version": "1.6.0",
+  "unity": "6000.0",
+  "unityRelease": "44f1",
+  "dependencies": {
+    "com.unity.ext.nunit": "2.0.3",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0"
+  },
+  "retrieved": "2026-11-10",
+  "source": "/Applications/Unity/Hub/Editor/6000.3.28f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.test-framework/package.json"
+}

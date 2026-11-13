@@ -1,0 +1,19 @@
+{
+  "origin": "Actual C# NetworkTestDriver state machine, Core2.4 and Wire9 encoder through pure .NET session model. NOT Unity/NGO/Relay transport. JSON values preserved; whitespace compressed for fixture.",
+  "generator": "Tools/NetworkTests/DriverModel15",
+  "source_manifest": "duel-golden-source-manifest.json",
+  "commands": "duel-golden-commands.json",
+  "original_report_sha256": {
+    "/tmp/defense-net15/duel-golden-final/default/host.json": "fc8bfbe944852a141af22f2afc9678c64a06641a440c20f9067475a0f4e9fb26",
+    "/tmp/defense-net15/duel-golden-final/default/client.json": "eaced91bf721f16cdb22c557b0bd6d09a9e146191b157be3527cd0500169a05e",
+    "/tmp/defense-net15/duel-golden-final/rules/host.json": "ee267ed3ea92d3f9cbfedfc469295916eb5d7d20632a4dc37c687cb170ee58a2",
+    "/tmp/defense-net15/duel-golden-final/rules/client.json": "92439b5ce4af52760d2d3eef7334cb6c857d23dbc22d8da7d0b66c04c20d1688",
+    "/tmp/defense-net15/duel-golden-final/big/host.json": "87721d8b250a815fb33952f70b2e9983295ae2db1b73d8f5941cf584514b5084",
+    "/tmp/defense-net15/duel-golden-final/big/client.json": "48a155370294f9d753ef02fa1c404edafda762a834f12f9bc5c5b34c4ff048b7",
+    "/tmp/defense-net15/duel-golden-final/rules3/host.json": "081ccc5cf550ec27ab0051e379a73ee76b5d5085504609308289670d28ae5277",
+    "/tmp/defense-net15/duel-golden-final/rules3/client.json": "d73fb4f6fadc92c33f8bebf0bd25bdc1d678bee50c10c8e573f575c6f4fa2e13",
+    "/tmp/defense-net15/duel-golden-final/start200/host.json": "8af3cf582427f7a464dc6a7bf7882a146cd82e55f72b82112020be557b607b5f",
+    "/tmp/defense-net15/duel-golden-final/start200/client.json": "afe37893b8ccddee01b589a1864eb336179cd7eea15f45f8525334c1dcd0c076"
+  },
+  "fixture_sha256": "a65e0e901306d37f5b41bb3ee5894ecb0db565415d57e5fa3f06e45f4f8ddd32"
+}

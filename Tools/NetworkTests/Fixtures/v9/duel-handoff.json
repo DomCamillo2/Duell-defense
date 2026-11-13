@@ -1,0 +1,23 @@
+{
+  "status": "Tools integrated, frozen, independent C# cross-language golden plus Python regressions tested; no new Unity/player/live transport execution",
+  "tests": 127,
+  "historical_tests": 99,
+  "new_tests": 28,
+  "exit_code": 0,
+  "sources_unchanged_during_run": true,
+  "source_sha256": {
+    "Tools/NetworkTests/compare_duel_v9.py": "a0f0b42a32f945e4b59ddde2b220bd987ebbb4d6832430db5cbf5c65b0089590",
+    "Tools/NetworkTests/test_comparison_duel_v9.py": "9022467c21239aa56ee40f587585c348269044e214d1a140ffdc970259c3da21",
+    "Tools/NetworkTests/run_lan.py": "71cd98086ec79923c31c9d5961e7fc56f7add471a493d2fec67b9d0d456f1381",
+    "Tools/NetworkTests/run_relay.py": "af5d88003faa510cc190f4aebb5810f52c7a41872c5fe9e291c1f3db7a09642c",
+    "Tools/NetworkTests/Fixtures/v9/README-duel.txt": "31cff1f7aa9086976340399e2d430aef969d017a0305cc527ef0f7c10e8081a3",
+    "Tools/NetworkTests/Fixtures/v9/duel-golden-build.log": "67fd490a2cbd61cbb79ad4d60993d748b53c4a6508be48896798efacfb3d8524",
+    "Tools/NetworkTests/Fixtures/v9/duel-golden-commands.json": "3c3b404b501ea8999170b3bf0b40f89f784b2130b5d1d5f26deb8bd809cd330a",
+    "Tools/NetworkTests/Fixtures/v9/duel-golden-origin.json": "b3479dfc8dd83cd624d8089a24ec68606869696794110dd545c2bb8c85574eae",
+    "Tools/NetworkTests/Fixtures/v9/duel-golden-source-manifest.json": "1704103c3a9958d383eb997bf213ad589e2acd75c0f168f12ac5c943ba83be1a",
+    "Tools/NetworkTests/Fixtures/v9/duel-goldens.json.gz": "a65e0e901306d37f5b41bb3ee5894ecb0db565415d57e5fa3f06e45f4f8ddd32",
+    "Tools/NetworkTests/Fixtures/v9/python-duel-v9.json": "cb3e955d57fb50d714b17140139c02d7b2ce2c1ff5b5836d39bf27199f59342a",
+    "Tools/NetworkTests/Fixtures/v9/python-duel-v9.log": "4fd179cd322e8cd9e392c38183fa9b90fa305d1305de9c51931de5a3e85e81c0"
+  },
+  "pending": "Parent-owned current player builds and actual LAN/Relay acceptance; team/endless acceptance is owned by network_smooth."
+}

@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4384692344585933819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9090374505793245574}
+  - component: {fileID: 5568791641557709991}
+  - component: {fileID: 157353124080281847}
+  - component: {fileID: 2760165647562022762}
+  m_Layer: 0
+  m_Name: GameRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9090374505793245574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4384692344585933819}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5568791641557709991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4384692344585933819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96ad11b2dafab4e499e21320279aa99b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: DefenseDuell.Networking::DefenseDuell.Networking.SessionCoordinator
+--- !u!114 &157353124080281847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4384692344585933819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 118ac80bd0b724d618ac9b6269d93bb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: DefenseDuell.Presentation::DefenseDuell.Presentation.GameUI
+  TowerSprites:
+  - {fileID: 21300000, guid: d6becf2290ba34dcea3f162d491fb0ba, type: 3}
+  - {fileID: 21300000, guid: 2ca7667712efd46d0a5179d352f71b4f, type: 3}
+  - {fileID: 21300000, guid: dbc5daaad3cfa4334a2667c838c8f69c, type: 3}
+  - {fileID: 21300000, guid: 16299d85d5ad24f2893a5ac8a159a4bf, type: 3}
+  UnitSprites:
+  - {fileID: 21300000, guid: fbc0e2ffd5b374b119108f22e321665e, type: 3}
+  - {fileID: 21300000, guid: 9f296e5c3576f45b8bcab43e59fc7166, type: 3}
+  - {fileID: 21300000, guid: e7e246c962dd3410cae02f6ea358cdee, type: 3}
+  - {fileID: 21300000, guid: 98f467519e0534e2db08d55efdad069f, type: 3}
+  ClickSound: {fileID: 8300000, guid: ece58e344628d45dbbead29c0550d9e9, type: 3}
+  ConfirmSound: {fileID: 8300000, guid: 0f1e73d0cdef4490d84ded45e4b4428d, type: 3}
+  ErrorSound: {fileID: 8300000, guid: 476cf010ca9b9473a91a79c836fd2095, type: 3}
+  BackSound: {fileID: 8300000, guid: 0b44ff277e4ae40ec8b17a4a7806c374, type: 3}
+  DisplayFont: {fileID: 0}
+--- !u!114 &2760165647562022762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4384692344585933819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3920f89ad53f437aaf5f7ac3de653fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: DefenseDuell.Platform::DefenseDuell.Platform.GameBootstrap
+  Content: {fileID: 11400000, guid: 8e453ec401ee34581a784e46a5e2fac5, type: 2}
+  Session: {fileID: 5568791641557709991}
+  Interface: {fileID: 157353124080281847}

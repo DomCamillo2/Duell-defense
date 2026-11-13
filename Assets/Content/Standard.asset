@@ -1,0 +1,1067 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fc28e2297354a049903a1c9cfb2785, type: 3}
+  m_Name: Standard
+  m_EditorClassIdentifier: DefenseDuell.Content::DefenseDuell.Content.GameContentAsset
+  schemaVersion: 11
+  rules:
+    TickRate: 20
+    StartGold: 180
+    BaseHp: 30
+    PassiveGoldPerSecond: 4
+    MaxUnitsPerField: 80
+    MaxSpawnOrdersPerPlayer: 80
+    MatchDurationTicks: 9600
+    CountdownTicks: 60
+    SellRefundPercent: 65
+    SpawnIntervalTicks: 2
+    MinimumSlowPermille: 600
+    MaxCommandsPerSecond: 40
+    MaxGold: 10000
+    MineSellRefundPercent: 40
+  towers:
+  - Name: Schnellfeuer
+    Price: 65
+    Range: 150
+    Damage: 6
+    FireIntervalTicks: 8
+    SplashRadius: 0
+    SlowPermille: 1000
+    SlowDurationTicks: 0
+    ArmorPiercing: 0
+    IncomePerSecond: 0
+    MaxPerPlayer: 32
+    IncomeUnitsPerSecond: 0
+    Upgrades:
+    - Price: 55
+      Damage: 9
+      Range: 180
+      FireIntervalTicks: 8
+      IncomePerSecond: 0
+      IncomeUnitsPerSecond: 0
+    - Price: 85
+      Damage: 14
+      Range: 210
+      FireIntervalTicks: 8
+      IncomePerSecond: 0
+      IncomeUnitsPerSecond: 0
+    Mechanic: 0
+    MaxTargets: 1
+    JumpRange: 0
+    LineHalfWidth: 0
+    DamagePermilleByHit: e8030000
+  - Name: Kanone
+    Price: 105
+    Range: 155
+    Damage: 16
+    FireIntervalTicks: 32
+    SplashRadius: 90
+    SlowPermille: 1000
+    SlowDurationTicks: 0
+    ArmorPiercing: 0
+    IncomePerSecond: 0
+    MaxPerPlayer: 32
+    IncomeUnitsPerSecond: 0
+    Upgrades:
+    - Price: 85
+      Damage: 26
+      Range: 186
+      FireIntervalTicks: 32
+      IncomePerSecond: 0
+      IncomeUnitsPerSecond: 0
+    - Price: 130
+      Damage: 40
+      Range: 217
+      FireIntervalTicks: 32
+      IncomePerSecond: 0
+      IncomeUnitsPerSecond: 0
+    Mechanic: 0
+    MaxTargets: 1
+    JumpRange: 0
+    LineHalfWidth: 0
+    DamagePermilleByHit: e8030000
+  - Name: Frost
+    Price: 85
+    Range: 155
+    Damage: 4
+    FireIntervalTicks: 20
+    SplashRadius: 0
+    SlowPermille: 650
+    SlowDurationTicks: 30
+    ArmorPiercing: 0
+    IncomePerSecond: 0
+    MaxPerPlayer: 32
+    IncomeUnitsPerSecond: 0
+    Upgrades:
+    - Price: 60
+      Damage: 6
+      Range: 186
+      FireIntervalTicks: 20
+      IncomePerSecond: 0
+      IncomeUnitsPerSecond: 0
+    - Price: 95
+      Damage: 8
+      Range: 217
+      FireIntervalTicks: 20
+      IncomePerSecond: 0
+      IncomeUnitsPerSecond: 0
+    Mechanic: 0
+    MaxTargets: 1
+    JumpRange: 0
+    LineHalfWidth: 0
+    DamagePermilleByHit: e8030000
+  - Name: Panzerbrecher
+    Price: 120
+    Range: 190
+    Damage: 40
+    FireIntervalTicks: 42
+    SplashRadius: 0
+    SlowPermille: 1000
+    SlowDurationTicks: 0
+    ArmorPiercing: 8
+    IncomePerSecond: 0
+    MaxPerPlayer: 32
+    IncomeUnitsPerSecond: 0
+    Upgrades:
+    - Price: 85
+      Damage: 64
+      Range: 228
+      FireIntervalTicks: 42
+      IncomePerSecond: 0
+      IncomeUnitsPerSecond: 0
+    - Price: 130
+      Damage: 96
+      Range: 266
+      FireIntervalTicks: 42
+      IncomePerSecond: 0
+      IncomeUnitsPerSecond: 0
+    Mechanic: 0
+    MaxTargets: 1
+    JumpRange: 0
+    LineHalfWidth: 0
+    DamagePermilleByHit: e8030000
+  - Name: Goldmine
+    Price: 160
+    Range: 0
+    Damage: 0
+    FireIntervalTicks: 0
+    SplashRadius: 0
+    SlowPermille: 1000
+    SlowDurationTicks: 0
+    ArmorPiercing: 0
+    IncomePerSecond: 1
+    MaxPerPlayer: 2
+    IncomeUnitsPerSecond: 960
+    Upgrades:
+    - Price: 100
+      Damage: 0
+      Range: 0
+      FireIntervalTicks: 0
+      IncomePerSecond: 1
+      IncomeUnitsPerSecond: 1440
+    - Price: 160
+      Damage: 0
+      Range: 0
+      FireIntervalTicks: 0
+      IncomePerSecond: 2
+      IncomeUnitsPerSecond: 1920
+    Mechanic: 0
+    MaxTargets: 1
+    JumpRange: 0
+    LineHalfWidth: 0
+    DamagePermilleByHit: e8030000
+  - Name: Blitzspule
+    Price: 125
+    Range: 155
+    Damage: 12
+    FireIntervalTicks: 24
+    SplashRadius: 0
+    SlowPermille: 1000
+    SlowDurationTicks: 0
+    ArmorPiercing: 0
+    IncomePerSecond: 0
+    MaxPerPlayer: 32
+    IncomeUnitsPerSecond: 0
+    Upgrades:
+    - Price: 75
+      Damage: 18
+      Range: 186
+      FireIntervalTicks: 24
+      IncomePerSecond: 0
+      IncomeUnitsPerSecond: 0
+    - Price: 115
+      Damage: 26
+      Range: 217
+      FireIntervalTicks: 24
+      IncomePerSecond: 0
+      IncomeUnitsPerSecond: 0
+    Mechanic: 1
+    MaxTargets: 3
+    JumpRange: 75
+    LineHalfWidth: 0
+    DamagePermilleByHit: e80300008a02000090010000
+  - Name: Balliste
+    Price: 120
+    Range: 185
+    Damage: 26
+    FireIntervalTicks: 36
+    SplashRadius: 0
+    SlowPermille: 1000
+    SlowDurationTicks: 0
+    ArmorPiercing: 0
+    IncomePerSecond: 0
+    MaxPerPlayer: 32
+    IncomeUnitsPerSecond: 0
+    Upgrades:
+    - Price: 80
+      Damage: 38
+      Range: 222
+      FireIntervalTicks: 36
+      IncomePerSecond: 0
+      IncomeUnitsPerSecond: 0
+    - Price: 125
+      Damage: 54
+      Range: 259
+      FireIntervalTicks: 36
+      IncomePerSecond: 0
+      IncomeUnitsPerSecond: 0
+    Mechanic: 2
+    MaxTargets: 3
+    JumpRange: 0
+    LineHalfWidth: 18
+    DamagePermilleByHit: e8030000bc020000c2010000
+  - Name: Laser
+    Price: 180
+    Range: 200
+    Damage: 6
+    FireIntervalTicks: 8
+    SplashRadius: 0
+    SlowPermille: 1000
+    SlowDurationTicks: 0
+    ArmorPiercing: 0
+    IncomePerSecond: 0
+    MaxPerPlayer: 32
+    IncomeUnitsPerSecond: 0
+    Upgrades:
+    - Price: 85
+      Damage: 10
+      Range: 240
+      FireIntervalTicks: 8
+      IncomePerSecond: 0
+      IncomeUnitsPerSecond: 0
+    - Price: 125
+      Damage: 16
+      Range: 280
+      FireIntervalTicks: 8
+      IncomePerSecond: 0
+      IncomeUnitsPerSecond: 0
+    Mechanic: 3
+    MaxTargets: 1
+    JumpRange: 0
+    LineHalfWidth: 0
+    DamagePermilleByHit: e8030000
+  units:
+  - Name: "L\xE4ufer"
+    Price: 18
+    Hp: 34
+    SpeedPerSecond: 104
+    Armor: 0
+    BaseDamage: 1
+    Count: 1
+    CooldownTicks: 6
+    KillBounty: 4
+  - Name: Sprinter
+    Price: 24
+    Hp: 22
+    SpeedPerSecond: 184
+    Armor: 0
+    BaseDamage: 1
+    Count: 1
+    CooldownTicks: 8
+    KillBounty: 5
+  - Name: Tank
+    Price: 65
+    Hp: 220
+    SpeedPerSecond: 59
+    Armor: 5
+    BaseDamage: 3
+    Count: 1
+    CooldownTicks: 12
+    KillBounty: 14
+  - Name: Schwarm
+    Price: 38
+    Hp: 26
+    SpeedPerSecond: 93
+    Armor: 0
+    BaseDamage: 1
+    Count: 4
+    CooldownTicks: 10
+    KillBounty: 2
+  - Name: Sturmkoloss
+    Price: 1200
+    Hp: 1000
+    SpeedPerSecond: 215
+    Armor: 2
+    BaseDamage: 6
+    Count: 1
+    CooldownTicks: 60
+    KillBounty: 150
+  - Name: Belagerungskoloss
+    Price: 1600
+    Hp: 3200
+    SpeedPerSecond: 46
+    Armor: 8
+    BaseDamage: 10
+    Count: 1
+    CooldownTicks: 90
+    KillBounty: 210
+  maps:
+  - Id: meadow
+    Name: "Gr\xFCnes Tal"
+    Theme: 0
+    Width: 1600
+    Height: 960
+    FreePlacement: 1
+    MineSlots: 
+    BlockedAreas:
+    - MinX: 910
+      MinY: 30
+      MaxX: 1110
+      MaxY: 190
+    - MinX: 1230
+      MinY: 30
+      MaxX: 1430
+      MaxY: 190
+    - MinX: 30
+      MinY: 310
+      MaxX: 230
+      MaxY: 470
+    - MinX: 190
+      MinY: 30
+      MaxX: 310
+      MaxY: 150
+    - MinX: 430
+      MinY: 30
+      MaxX: 590
+      MaxY: 110
+    - MinX: 590
+      MinY: 270
+      MaxX: 750
+      MaxY: 430
+    - MinX: 350
+      MinY: 310
+      MaxX: 470
+      MaxY: 470
+    - MinX: 630
+      MinY: 590
+      MaxX: 790
+      MaxY: 670
+    - MinX: 1150
+      MinY: 390
+      MaxX: 1270
+      MaxY: 510
+    Waypoints:
+    - X: 30
+      Y: 230
+    - X: 480
+      Y: 230
+    - X: 610
+      Y: 180
+    - X: 780
+      Y: 180
+    - X: 900
+      Y: 280
+    - X: 1010
+      Y: 300
+    - X: 1320
+      Y: 300
+    - X: 1420
+      Y: 400
+    - X: 1420
+      Y: 500
+    - X: 1320
+      Y: 600
+    - X: 960
+      Y: 600
+    - X: 820
+      Y: 510
+    - X: 600
+      Y: 510
+    - X: 460
+      Y: 650
+    - X: 220
+      Y: 650
+    - X: 130
+      Y: 740
+    - X: 220
+      Y: 830
+    - X: 560
+      Y: 830
+    - X: 760
+      Y: 760
+    - X: 1010
+      Y: 800
+    - X: 1270
+      Y: 800
+    - X: 1440
+      Y: 740
+    - X: 1570
+      Y: 740
+    BuildSlots:
+    - X: 80
+      Y: 130
+    - X: 180
+      Y: 330
+    - X: 320
+      Y: 130
+    - X: 460
+      Y: 130
+    - X: 600
+      Y: 90
+    - X: 760
+      Y: 90
+    - X: 820
+      Y: 330
+    - X: 1000
+      Y: 390
+    - X: 1160
+      Y: 210
+    - X: 1300
+      Y: 210
+    - X: 1480
+      Y: 330
+    - X: 1460
+      Y: 590
+    - X: 1280
+      Y: 510
+    - X: 1140
+      Y: 510
+    - X: 1000
+      Y: 690
+    - X: 820
+      Y: 610
+    - X: 720
+      Y: 430
+    - X: 520
+      Y: 450
+    - X: 540
+      Y: 690
+    - X: 340
+      Y: 550
+    - X: 140
+      Y: 590
+    - X: 100
+      Y: 830
+    - X: 280
+      Y: 750
+    - X: 640
+      Y: 890
+    - X: 680
+      Y: 690
+    - X: 780
+      Y: 850
+    - X: 920
+      Y: 870
+    - X: 1060
+      Y: 890
+    - X: 1140
+      Y: 710
+    - X: 1320
+      Y: 890
+    - X: 1460
+      Y: 830
+    - X: 1340
+      Y: 690
+  - Id: desert
+    Name: Sonnenpass
+    Theme: 1
+    Width: 1600
+    Height: 960
+    FreePlacement: 1
+    MineSlots: 
+    BlockedAreas:
+    - MinX: 30
+      MinY: 30
+      MaxX: 230
+      MaxY: 190
+    - MinX: 1270
+      MinY: 30
+      MaxX: 1470
+      MaxY: 190
+    - MinX: 1350
+      MinY: 310
+      MaxX: 1550
+      MaxY: 470
+    - MinX: 30
+      MinY: 310
+      MaxX: 190
+      MaxY: 470
+    - MinX: 310
+      MinY: 750
+      MaxX: 470
+      MaxY: 910
+    - MinX: 350
+      MinY: 30
+      MaxX: 470
+      MaxY: 150
+    - MinX: 790
+      MinY: 230
+      MaxX: 990
+      MaxY: 390
+    - MinX: 30
+      MinY: 590
+      MaxX: 110
+      MaxY: 710
+    - MinX: 1470
+      MinY: 750
+      MaxX: 1550
+      MaxY: 870
+    - MinX: 430
+      MinY: 310
+      MaxX: 590
+      MaxY: 390
+    Waypoints:
+    - X: 30
+      Y: 780
+    - X: 180
+      Y: 780
+    - X: 270
+      Y: 680
+    - X: 270
+      Y: 380
+    - X: 390
+      Y: 240
+    - X: 650
+      Y: 240
+    - X: 790
+      Y: 120
+    - X: 1050
+      Y: 120
+    - X: 1200
+      Y: 260
+    - X: 1200
+      Y: 490
+    - X: 1070
+      Y: 610
+    - X: 830
+      Y: 610
+    - X: 690
+      Y: 460
+    - X: 500
+      Y: 460
+    - X: 460
+      Y: 600
+    - X: 600
+      Y: 780
+    - X: 930
+      Y: 840
+    - X: 1210
+      Y: 810
+    - X: 1350
+      Y: 680
+    - X: 1570
+      Y: 680
+    BuildSlots:
+    - X: 80
+      Y: 690
+    - X: 160
+      Y: 870
+    - X: 320
+      Y: 750
+    - X: 180
+      Y: 570
+    - X: 180
+      Y: 430
+    - X: 260
+      Y: 250
+    - X: 420
+      Y: 150
+    - X: 560
+      Y: 150
+    - X: 740
+      Y: 290
+    - X: 720
+      Y: 70
+    - X: 900
+      Y: 210
+    - X: 1120
+      Y: 70
+    - X: 1080
+      Y: 270
+    - X: 1300
+      Y: 310
+    - X: 1300
+      Y: 450
+    - X: 1200
+      Y: 610
+    - X: 1020
+      Y: 510
+    - X: 900
+      Y: 710
+    - X: 720
+      Y: 630
+    - X: 780
+      Y: 430
+    - X: 560
+      Y: 370
+    - X: 560
+      Y: 550
+    - X: 460
+      Y: 730
+    - X: 580
+      Y: 870
+    - X: 720
+      Y: 890
+    - X: 1040
+      Y: 730
+    - X: 1200
+      Y: 890
+    - X: 1340
+      Y: 850
+    - X: 1340
+      Y: 590
+    - X: 1460
+      Y: 770
+    - X: 1480
+      Y: 590
+    - X: 380
+      Y: 590
+  - Id: frost
+    Name: Frosthafen
+    Theme: 2
+    Width: 1600
+    Height: 960
+    FreePlacement: 1
+    MineSlots: 
+    BlockedAreas:
+    - MinX: 30
+      MinY: 230
+      MaxX: 230
+      MaxY: 390
+    - MinX: 30
+      MinY: 510
+      MaxX: 230
+      MaxY: 670
+    - MinX: 1390
+      MinY: 310
+      MaxX: 1550
+      MaxY: 470
+    - MinX: 510
+      MinY: 30
+      MaxX: 630
+      MaxY: 190
+    - MinX: 30
+      MinY: 790
+      MaxX: 150
+      MaxY: 910
+    - MinX: 550
+      MinY: 590
+      MaxX: 750
+      MaxY: 750
+    - MinX: 870
+      MinY: 230
+      MaxX: 1070
+      MaxY: 390
+    - MinX: 1470
+      MinY: 30
+      MaxX: 1550
+      MaxY: 150
+    - MinX: 1350
+      MinY: 590
+      MaxX: 1510
+      MaxY: 670
+    Waypoints:
+    - X: 30
+      Y: 160
+    - X: 350
+      Y: 160
+    - X: 470
+      Y: 260
+    - X: 700
+      Y: 260
+    - X: 830
+      Y: 150
+    - X: 1140
+      Y: 150
+    - X: 1290
+      Y: 280
+    - X: 1290
+      Y: 430
+    - X: 1160
+      Y: 540
+    - X: 900
+      Y: 540
+    - X: 780
+      Y: 440
+    - X: 560
+      Y: 440
+    - X: 400
+      Y: 570
+    - X: 400
+      Y: 750
+    - X: 550
+      Y: 850
+    - X: 820
+      Y: 850
+    - X: 980
+      Y: 740
+    - X: 1140
+      Y: 740
+    - X: 1280
+      Y: 840
+    - X: 1460
+      Y: 840
+    - X: 1570
+      Y: 730
+    BuildSlots:
+    - X: 80
+      Y: 70
+    - X: 160
+      Y: 250
+    - X: 300
+      Y: 70
+    - X: 460
+      Y: 130
+    - X: 520
+      Y: 350
+    - X: 640
+      Y: 170
+    - X: 820
+      Y: 290
+    - X: 860
+      Y: 70
+    - X: 1000
+      Y: 250
+    - X: 1180
+      Y: 70
+    - X: 1160
+      Y: 290
+    - X: 1380
+      Y: 330
+    - X: 1320
+      Y: 510
+    - X: 1220
+      Y: 610
+    - X: 1040
+      Y: 450
+    - X: 880
+      Y: 630
+    - X: 760
+      Y: 530
+    - X: 620
+      Y: 530
+    - X: 420
+      Y: 450
+    - X: 500
+      Y: 610
+    - X: 300
+      Y: 630
+    - X: 360
+      Y: 830
+    - X: 560
+      Y: 750
+    - X: 700
+      Y: 750
+    - X: 900
+      Y: 890
+    - X: 1020
+      Y: 650
+    - X: 1040
+      Y: 830
+    - X: 1180
+      Y: 870
+    - X: 1300
+      Y: 730
+    - X: 1440
+      Y: 730
+    - X: 900
+      Y: 410
+    - X: 1360
+      Y: 190
+  - Id: emerald-basin
+    Name: Smaragdkessel
+    Theme: 0
+    Width: 2400
+    Height: 1440
+    FreePlacement: 1
+    MineSlots: 
+    BlockedAreas:
+    - MinX: 80
+      MinY: 40
+      MaxX: 280
+      MaxY: 130
+    - MinX: 760
+      MinY: 60
+      MaxX: 1240
+      MaxY: 220
+    - MinX: 1810
+      MinY: 1170
+      MaxX: 2260
+      MaxY: 1380
+    - MinX: 100
+      MinY: 580
+      MaxX: 300
+      MaxY: 1050
+    - MinX: 850
+      MinY: 500
+      MaxX: 1400
+      MaxY: 1000
+    - MinX: 1840
+      MinY: 560
+      MaxX: 2160
+      MaxY: 950
+    - MinX: 70
+      MinY: 1260
+      MaxX: 400
+      MaxY: 1400
+    - MinX: 1370
+      MinY: 40
+      MaxX: 1600
+      MaxY: 300
+    Waypoints:
+    - X: 30
+      Y: 240
+    - X: 330
+      Y: 240
+    - X: 510
+      Y: 420
+    - X: 510
+      Y: 1040
+    - X: 730
+      Y: 1260
+    - X: 1450
+      Y: 1260
+    - X: 1670
+      Y: 1040
+    - X: 1670
+      Y: 480
+    - X: 1870
+      Y: 280
+    - X: 2160
+      Y: 280
+    - X: 2370
+      Y: 490
+    - X: 2370
+      Y: 1075
+    BuildSlots:
+    - X: 30
+      Y: 500
+  - Id: amber-canyon
+    Name: Bernsteinschlucht
+    Theme: 1
+    Width: 2400
+    Height: 1440
+    FreePlacement: 1
+    MineSlots: 
+    BlockedAreas:
+    - MinX: 100
+      MinY: 100
+      MaxX: 400
+      MaxY: 660
+    - MinX: 1660
+      MinY: 50
+      MaxX: 2270
+      MaxY: 300
+    - MinX: 70
+      MinY: 1230
+      MaxX: 570
+      MaxY: 1400
+    - MinX: 1660
+      MinY: 1300
+      MaxX: 2280
+      MaxY: 1400
+    - MinX: 850
+      MinY: 440
+      MaxX: 1230
+      MaxY: 1040
+    - MinX: 1760
+      MinY: 480
+      MaxX: 2160
+      MaxY: 820
+    - MinX: 180
+      MinY: 840
+      MaxX: 370
+      MaxY: 960
+    Waypoints:
+    - X: 30
+      Y: 1100
+    - X: 360
+      Y: 1100
+    - X: 600
+      Y: 920
+    - X: 600
+      Y: 350
+    - X: 840
+      Y: 170
+    - X: 1260
+      Y: 170
+    - X: 1500
+      Y: 350
+    - X: 1500
+      Y: 1000
+    - X: 1740
+      Y: 1180
+    - X: 2070
+      Y: 1180
+    - X: 2370
+      Y: 880
+    - X: 2370
+      Y: 682
+    BuildSlots:
+    - X: 30
+      Y: 500
+  - Id: aurora-bay
+    Name: Nordlichtbucht
+    Theme: 2
+    Width: 2400
+    Height: 1440
+    FreePlacement: 1
+    MineSlots: 
+    BlockedAreas:
+    - MinX: 80
+      MinY: 1280
+      MaxX: 450
+      MaxY: 1410
+    - MinX: 100
+      MinY: 70
+      MaxX: 800
+      MaxY: 360
+    - MinX: 1690
+      MinY: 1040
+      MaxX: 2220
+      MaxY: 1360
+    - MinX: 2120
+      MinY: 60
+      MaxX: 2320
+      MaxY: 550
+    - MinX: 1480
+      MinY: 380
+      MaxX: 1790
+      MaxY: 760
+    - MinX: 100
+      MinY: 600
+      MaxX: 440
+      MaxY: 1000
+    - MinX: 760
+      MinY: 520
+      MaxX: 1040
+      MaxY: 810
+    Waypoints:
+    - X: 30
+      Y: 1180
+    - X: 500
+      Y: 1180
+    - X: 740
+      Y: 1000
+    - X: 1060
+      Y: 1000
+    - X: 1300
+      Y: 820
+    - X: 1300
+      Y: 520
+    - X: 1060
+      Y: 340
+    - X: 1060
+      Y: 160
+    - X: 1740
+      Y: 160
+    - X: 1980
+      Y: 340
+    - X: 1980
+      Y: 780
+    - X: 2370
+      Y: 780
+    - X: 2370
+      Y: 838
+    BuildSlots:
+    - X: 30
+      Y: 500
+  waves:
+  - Counts: 0a000000000000000000000000000000
+    HpPercent: 100
+  - Counts: 0c000000040000000000000000000000
+    HpPercent: 112
+  - Counts: 0c000000040000000000000004000000
+    HpPercent: 124
+  - Counts: 0c000000040000000200000006000000
+    HpPercent: 136
+  - Counts: 0a000000080000000200000008000000
+    HpPercent: 148
+  - Counts: 0a00000008000000040000000a000000
+    HpPercent: 160
+  - Counts: 0a0000000a000000040000000c000000
+    HpPercent: 172
+  - Counts: 0a0000000c000000060000000c000000
+    HpPercent: 184
+  - Counts: 0a0000000e000000080000000c000000
+    HpPercent: 196
+  - Counts: 080000000e0000000a00000010000000
+    HpPercent: 208
+  research:
+  - HpPerLevel: 4
+    SpeedPerLevel: 2
+    BasePrice: 15
+    PriceStep: 4
+    QuadraticPrice: 1
+    MaxLevel: 0
+    HpQuadraticNumerator: 1
+    HpQuadraticDenominator: 2
+  - HpPerLevel: 1
+    SpeedPerLevel: 5
+    BasePrice: 20
+    PriceStep: 5
+    QuadraticPrice: 1
+    MaxLevel: 0
+    HpQuadraticNumerator: 1
+    HpQuadraticDenominator: 4
+  - HpPerLevel: 40
+    SpeedPerLevel: 0
+    BasePrice: 45
+    PriceStep: 12
+    QuadraticPrice: 2
+    MaxLevel: 0
+    HpQuadraticNumerator: 4
+    HpQuadraticDenominator: 1
+  - HpPerLevel: 3
+    SpeedPerLevel: 0
+    BasePrice: 30
+    PriceStep: 7
+    QuadraticPrice: 1
+    MaxLevel: 0
+    HpQuadraticNumerator: 1
+    HpQuadraticDenominator: 2
+  - HpPerLevel: 70
+    SpeedPerLevel: 0
+    BasePrice: 350
+    PriceStep: 90
+    QuadraticPrice: 20
+    MaxLevel: 0
+    HpQuadraticNumerator: 6
+    HpQuadraticDenominator: 2
+  - HpPerLevel: 180
+    SpeedPerLevel: 0
+    BasePrice: 450
+    PriceStep: 120
+    QuadraticPrice: 28
+    MaxLevel: 0
+    HpQuadraticNumerator: 24
+    HpQuadraticDenominator: 2
+  waveRules:
+    PreparationTicks: 200
+    WaveBudget: 240
+    NeutralSpawnIntervalTicks: 10
+    MinimumSendWindowTicks: 600
+    SendWindowTailTicks: 80
+    MaxUnitsPerOrigin: 64
+    IncomeUnitsPerGold: 960
+    AttackIncomeDivisor: 240
+    MaxAttackIncomeUnits: 2880

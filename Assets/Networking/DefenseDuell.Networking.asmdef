@@ -1,0 +1,7 @@
+{
+  "name": "DefenseDuell.Networking",
+  "rootNamespace": "DefenseDuell.Networking",
+  "references": ["DefenseDuell.Core", "Unity.Netcode.Runtime", "Unity.Networking.Transport", "Unity.Collections", "Unity.Services.Core", "Unity.Services.Authentication", "Unity.Services.Multiplayer"],
+  "allowUnsafeCode": false,
+  "autoReferenced": true
+}

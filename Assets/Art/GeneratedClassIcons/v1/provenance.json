@@ -1,0 +1,273 @@
+{
+  "version": 1,
+  "date": "2026-11-10",
+  "generator": "Built-in image_gen.imagegen",
+  "scope": "Project-specific generated class portraits; no third-party pack assets incorporated.",
+  "runtime_integration": "Staged complete 9-image set. Main chat / research_assets owns promotion, Sprite import (max 512, alpha, mipmaps off), binding, and final HUD review.",
+  "assets": [
+    {
+      "name": "unit_runner",
+      "file": "unit_runner.png",
+      "source": "/Users/domi/.codex/generated_images/01a1c6b8-3c29-7cb3-9635-5eb91428c7a1/exec-7d49a4a0-09e0-45b9-93ff-56c301c8a303.png",
+      "reference": null,
+      "prompt": "Use case: stylized-concept. Asset type: production-ready mobile tower-defense game class selection portrait, standalone square raster icon with a genuinely transparent background. Art direction: original premium stylized 3D game illustration, charming and confident rather than childish, chunky expertly designed silhouette, polished hand-painted materials, subtle faceted construction, rounded bevels, strong readable light/dark shapes, warm soft key light from upper left and restrained cool rim light. Three-quarter view, slightly elevated camera, subject centered and fully visible, fills about 78 percent of the square with generous clean transparent padding all around. It must read instantly at 72 pixels, with large meaningful details and minimal tiny texture. Rich saturated class accent colors balanced with charcoal, ivory and warm stone. No text, letters, numbers, logos, card frame, interface, scenery, ground tile, backdrop, cast shadow extending outside subject, or watermark. No imitation of any existing game character. Maintain this same art direction for a cohesive nine-icon set.\nSubject: one original GREEN RUNNER troop. A compact emerald-green walking pebble-golem scout with an oval round body, two expressive ivory eyes with dark pupils, subtly raised determined brows, two stout dark charcoal boots, tiny green arms close to the body. Smooth forest-green armor-like stone plates and a few softly faceted surfaces. A little olive-gold collar accent. Clear agile stepping pose with one foot forward, friendly determined face. This is a simple dependable basic troop, not a warrior with a weapon. Entire body visible, large clear face and boots. Only one creature. Transparent background.",
+      "transparent_background": true,
+      "visual_review": "Accepted: class silhouette, no text, complete subject, consistent materials. Individual review at source resolution; final HUD review pending.",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "sha256": "ceac8f8105ea092f0b217dde05c7cfe0202bb772a3340d51c08d4be1b57e7665",
+      "category": "unit",
+      "kind_index": 0,
+      "alpha_zero_fraction": 0.6018,
+      "visible_bounds_alpha_ge_128": [
+        169,
+        116,
+        1088,
+        1174
+      ]
+    },
+    {
+      "name": "unit_sprinter",
+      "file": "unit_sprinter.png",
+      "source": "/Users/domi/.codex/generated_images/01a1c6b8-3c29-7cb3-9635-5eb91428c7a1/exec-04b77bff-7b9a-4c42-83b0-553e10ff47dd.png",
+      "reference": "/Users/domi/.codex/generated_images/01a1c6b8-3c29-7cb3-9635-5eb91428c7a1/exec-7d49a4a0-09e0-45b9-93ff-56c301c8a303.png",
+      "prompt": "Use case: stylized-concept. Asset type: production-ready mobile tower-defense game class selection portrait, standalone square raster icon with a genuinely transparent background. Art direction: original premium stylized 3D game illustration, charming and confident rather than childish, chunky expertly designed silhouette, polished hand-painted materials, subtle faceted construction, rounded bevels, strong readable light/dark shapes, warm soft key light from upper left and restrained cool rim light. Three-quarter view, slightly elevated camera, subject centered and fully visible, fills about 78 percent of the square with generous clean transparent padding all around. It must read instantly at 72 pixels, with large meaningful details and minimal tiny texture. Rich saturated class accent colors balanced with charcoal, ivory and warm stone. No text, letters, numbers, logos, card frame, interface, scenery, ground tile, backdrop, cast shadow extending outside subject, or watermark. No imitation of any existing game character. Maintain this same art direction for a cohesive nine-icon set.\nInput image: visual style reference ONLY. Create a different requested class, not an edit of the green runner. Match its material treatment, lighting, premium 3D illustration quality and eye styling where applicable.\nSubject: One BLUE SPRINTER troop: a sleek turquoise-blue crystalline courier automaton, strongly tapered diamond-shaped body leaning forward in a fast running / gliding pose, a broad ivory inset visor with two small dark eyes, two swept-back amber-orange side fins/boosters, short dark stabilizer feet. Lighter and narrower than the green runner style reference. Distinct angular athletic silhouette and readable bright blue face. Only one unit, no weapon, no rocket exhaust cloud. Entire subject visible with at least 12 percent transparent margin on every side.",
+      "transparent_background": true,
+      "visual_review": "Accepted: class silhouette, no text, complete subject, consistent materials. Individual review at source resolution; final HUD review pending.",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "sha256": "059d012dc73f950535959a46432046c18c31545bc555c4e68113e53b4044dd2f",
+      "category": "unit",
+      "kind_index": 1,
+      "alpha_zero_fraction": 0.7176,
+      "visible_bounds_alpha_ge_128": [
+        195,
+        166,
+        1132,
+        1129
+      ]
+    },
+    {
+      "name": "unit_tank",
+      "file": "unit_tank.png",
+      "source": "/Users/domi/.codex/generated_images/01a1c6b8-3c29-7cb3-9635-5eb91428c7a1/exec-53879fd9-bc20-480c-9b9a-41142e722eb1.png",
+      "reference": "/Users/domi/.codex/generated_images/01a1c6b8-3c29-7cb3-9635-5eb91428c7a1/exec-7d49a4a0-09e0-45b9-93ff-56c301c8a303.png",
+      "prompt": "Use case: stylized-concept. Asset type: production-ready mobile tower-defense game class selection portrait, standalone square raster icon with a genuinely transparent background. Art direction: original premium stylized 3D game illustration, charming and confident rather than childish, chunky expertly designed silhouette, polished hand-painted materials, subtle faceted construction, rounded bevels, strong readable light/dark shapes, warm soft key light from upper left and restrained cool rim light. Three-quarter view, slightly elevated camera, subject centered and fully visible, fills about 78 percent of the square with generous clean transparent padding all around. It must read instantly at 72 pixels, with large meaningful details and minimal tiny texture. Rich saturated class accent colors balanced with charcoal, ivory and warm stone. No text, letters, numbers, logos, card frame, interface, scenery, ground tile, backdrop, cast shadow extending outside subject, or watermark. No imitation of any existing game character. Maintain this same art direction for a cohesive nine-icon set.\nInput image: visual style reference ONLY. Create a different requested class, not an edit of the green runner. Match its material treatment, lighting, premium 3D illustration quality and eye styling where applicable.\nSubject: One ORANGE TANK troop: a compact heavy armored tracked assault carrier, broad low silhouette with chunky orange plate hull, thick charcoal crawler treads on both sides, golden-yellow rectangular roof armor, a clear narrow ivory front visor/headlight slit. Three-quarter front view, weight and durability obvious, broad dark wheels/treads visible. No gun, no turret, no cannon barrel, no anthropomorphic arms or legs. Original friendly stylized machine. Entire vehicle visible with at least 12 percent transparent margin on every side.",
+      "transparent_background": true,
+      "visual_review": "Accepted: class silhouette, no text, complete subject, consistent materials. Individual review at source resolution; final HUD review pending.",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "sha256": "aeaab57f3ce83eedf42dd44137d517d478bdb5ef807c7575c3f6012dbfc927f5",
+      "category": "unit",
+      "kind_index": 2,
+      "alpha_zero_fraction": 0.537,
+      "visible_bounds_alpha_ge_128": [
+        84,
+        208,
+        1170,
+        1121
+      ]
+    },
+    {
+      "name": "unit_swarm",
+      "file": "unit_swarm.png",
+      "source": "/Users/domi/.codex/generated_images/01a1c6b8-3c29-7cb3-9635-5eb91428c7a1/exec-7e568f64-4b63-4b08-9907-12752640b0f9.png",
+      "reference": "/Users/domi/.codex/generated_images/01a1c6b8-3c29-7cb3-9635-5eb91428c7a1/exec-7d49a4a0-09e0-45b9-93ff-56c301c8a303.png",
+      "prompt": "Use case: stylized-concept. Asset type: production-ready mobile tower-defense game class selection portrait, standalone square raster icon with a genuinely transparent background. Art direction: original premium stylized 3D game illustration, charming and confident rather than childish, chunky expertly designed silhouette, polished hand-painted materials, subtle faceted construction, rounded bevels, strong readable light/dark shapes, warm soft key light from upper left and restrained cool rim light. Three-quarter view, slightly elevated camera, subject centered and fully visible, fills about 78 percent of the square with generous clean transparent padding all around. It must read instantly at 72 pixels, with large meaningful details and minimal tiny texture. Rich saturated class accent colors balanced with charcoal, ivory and warm stone. No text, letters, numbers, logos, card frame, interface, scenery, ground tile, backdrop, cast shadow extending outside subject, or watermark. No imitation of any existing game character. Maintain this same art direction for a cohesive nine-icon set.\nInput image: visual style reference ONLY. Create a different requested class, not an edit of the green runner. Match its material treatment, lighting, premium 3D illustration quality and eye styling where applicable.\nSubject: The PURPLE SWARM troop: exactly FOUR small violet-purple pebble-golem creatures in one compact friendly squad, each with expressive ivory eyes with dark pupils, little charcoal boots, a tiny golden crystal crest atop the head. Their design is a smaller purple cousin of the green runner reference, with simpler rounded bodies. Four distinct readable heads and silhouettes, two in front and two slightly higher behind, none cropped, no extra creature. Their group fits the same visual size as a single icon. Confident lively expressions. Clear four-unit grouping rather than one big creature. Entire group visible with at least 12 percent transparent margin on every side.",
+      "transparent_background": true,
+      "visual_review": "Accepted: class silhouette, no text, complete subject, consistent materials. Individual review at source resolution; final HUD review pending.",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "sha256": "ab773ffa8620692c919035f83b8e510ffea5f7a788fffda8beaca5903e393d53",
+      "category": "unit",
+      "kind_index": 3,
+      "alpha_zero_fraction": 0.5478,
+      "visible_bounds_alpha_ge_128": [
+        82,
+        165,
+        1170,
+        1100
+      ]
+    },
+    {
+      "name": "tower_rapid",
+      "category": "tower",
+      "kind_index": 0,
+      "file": "tower_rapid.png",
+      "source": "/Users/domi/.codex/generated_images/01a1c6b8-3c29-7cb3-9635-5eb91428c7a1/exec-fccbdf63-6cab-4cf6-a5aa-67dd70768660.png",
+      "reference": "/Users/domi/.codex/generated_images/01a1c6b8-3c29-7cb3-9635-5eb91428c7a1/exec-7d49a4a0-09e0-45b9-93ff-56c301c8a303.png",
+      "prompt": "Use case: stylized-concept. Asset type: production-ready mobile tower-defense game class selection portrait, standalone square raster icon with a genuinely transparent background. Art direction: original premium stylized 3D game illustration, charming and confident rather than childish, chunky expertly designed silhouette, polished hand-painted materials, subtle faceted construction, rounded bevels, strong readable light/dark shapes, warm soft key light from upper left and restrained cool rim light. Three-quarter view, slightly elevated camera, subject centered and fully visible, fills about 78 percent of the square with generous clean transparent padding all around. It must read instantly at 72 pixels, with large meaningful details and minimal tiny texture. Rich saturated class accent colors balanced with charcoal, ivory and warm stone. No text, letters, numbers, logos, card frame, interface, scenery, ground tile, backdrop, cast shadow extending outside subject, or watermark. No imitation of any existing game character. Maintain this same art direction for a cohesive nine-icon set. Input image is an ART STYLE reference only: match premium faceted hand-painted 3D materials, warm lighting and finish, but do not copy the creature, face, eyes or anatomy. Create a static defensive building as specified. Entire building visible with transparent breathing room on all four sides. Subject: The GREEN RAPID-FIRE TOWER: one compact defensive turret on a short warm gray stone plinth. Emerald green beveled armored turret head, exactly THREE parallel stout charcoal gun barrels in a tight triangular cluster, small olive-gold top cap and restrained ivory accents. Three-quarter view clearly reveals the three muzzle openings and fixed turret pivot. Strong compact silhouette. No wheels, no legs, no face, no character, no extra guns. The stone plinth is an integral part of the tower, not a ground tile.",
+      "transparent_background": true,
+      "visual_review": "Accepted: complete subject, distinct class silhouette, coherent materials, no lettering. Final imported HUD-size review remains with UI owner.",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_zero_fraction": 0.6272,
+      "visible_bounds_alpha_ge_128": [
+        239,
+        150,
+        989,
+        1162
+      ],
+      "sha256": "045e750aea23e56d6591b1d37e15790b1b576069190ad19eed601fe9b672c9af"
+    },
+    {
+      "name": "tower_cannon",
+      "category": "tower",
+      "kind_index": 1,
+      "file": "tower_cannon.png",
+      "source": "/Users/domi/.codex/generated_images/01a1c6b8-3c29-7cb3-9635-5eb91428c7a1/exec-c3dd458b-e01e-459c-9f38-9347b8c945df.png",
+      "reference": "/Users/domi/.codex/generated_images/01a1c6b8-3c29-7cb3-9635-5eb91428c7a1/exec-7d49a4a0-09e0-45b9-93ff-56c301c8a303.png",
+      "prompt": "Use case: stylized-concept. Asset type: production-ready mobile tower-defense game class selection portrait, standalone square raster icon with a genuinely transparent background. Art direction: original premium stylized 3D game illustration, charming and confident rather than childish, chunky expertly designed silhouette, polished hand-painted materials, subtle faceted construction, rounded bevels, strong readable light/dark shapes, warm soft key light from upper left and restrained cool rim light. Three-quarter view, slightly elevated camera, subject centered and fully visible, fills about 78 percent of the square with generous clean transparent padding all around. It must read instantly at 72 pixels, with large meaningful details and minimal tiny texture. Rich saturated class accent colors balanced with charcoal, ivory and warm stone. No text, letters, numbers, logos, card frame, interface, scenery, ground tile, backdrop, cast shadow extending outside subject, or watermark. No imitation of any existing game character. Maintain this same art direction for a cohesive nine-icon set. Input image is an ART STYLE reference only: match premium faceted hand-painted 3D materials, warm lighting and finish, but do not copy the creature, face, eyes or anatomy. Create a static defensive building as specified. Entire building visible with transparent breathing room on all four sides. Subject: The ORANGE CANNON TOWER: one squat heavy defensive turret on a warm gray stone plinth. Large rounded orange armored head, exactly ONE very broad charcoal cannon barrel with a thick pale steel rim and deeply dark circular muzzle, two large small side-pivot wheels attached to the base, gold armor accents. Three-quarter view clearly reveals the one large cannon muzzle. Strong weighty silhouette, obviously larger caliber than a rapid-fire turret. No treads, no legs, no face, no character. Plinth is part of the tower, not ground scenery.",
+      "transparent_background": true,
+      "visual_review": "Accepted: complete subject, distinct class silhouette, coherent materials, no lettering. Final imported HUD-size review remains with UI owner.",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_zero_fraction": 0.5219,
+      "visible_bounds_alpha_ge_128": [
+        154,
+        119,
+        1092,
+        1133
+      ],
+      "sha256": "5ac560e4903347d3ae6c101978ce15a7b0104df1d63ee229f611955d559e4cdf"
+    },
+    {
+      "name": "tower_frost",
+      "category": "tower",
+      "kind_index": 2,
+      "file": "tower_frost.png",
+      "source": "/Users/domi/.codex/generated_images/01a1c6b8-3c29-7cb3-9635-5eb91428c7a1/exec-893ffbfe-2db7-49e4-87b5-8a9034f12456.png",
+      "reference": "/Users/domi/.codex/generated_images/01a1c6b8-3c29-7cb3-9635-5eb91428c7a1/exec-7d49a4a0-09e0-45b9-93ff-56c301c8a303.png",
+      "prompt": "Use case: stylized-concept. Asset type: production-ready mobile tower-defense game class selection portrait, standalone square raster icon with a genuinely transparent background. Art direction: original premium stylized 3D game illustration, charming and confident rather than childish, chunky expertly designed silhouette, polished hand-painted materials, subtle faceted construction, rounded bevels, strong readable light/dark shapes, warm soft key light from upper left and restrained cool rim light. Three-quarter view, slightly elevated camera, subject centered and fully visible, fills about 78 percent of the square with generous clean transparent padding all around. It must read instantly at 72 pixels, with large meaningful details and minimal tiny texture. Rich saturated class accent colors balanced with charcoal, ivory and warm stone. No text, letters, numbers, logos, card frame, interface, scenery, ground tile, backdrop, cast shadow extending outside subject, or watermark. No imitation of any existing game character. Maintain this same art direction for a cohesive nine-icon set. Input image is an ART STYLE reference only: match premium faceted hand-painted 3D materials, warm lighting and finish, but do not copy the creature, face, eyes or anatomy. Create a static defensive building as specified. Entire building visible with transparent breathing room on all four sides. Subject: The CYAN FROST TOWER: one tall radiant ice-blue crystalline defensive tower on a short blue-gray stone and steel pedestal. One large central spear-shaped faceted cyan crystal, surrounded by exactly four smaller ivory-blue crystal shards and an ivory circular focusing ring at the lower crystal. Frozen polished glass and stone materials, pale cyan inner glow confined inside the subject. Elegant vertical silhouette, large readable central crystal. No gun, no face, no eyes, no humanoid, no floating snowflakes, no decorative cloud or background.",
+      "transparent_background": true,
+      "visual_review": "Accepted: complete subject, distinct class silhouette, coherent materials, no lettering. Final imported HUD-size review remains with UI owner.",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_zero_fraction": 0.7366,
+      "visible_bounds_alpha_ge_128": [
+        329,
+        102,
+        910,
+        1171
+      ],
+      "sha256": "4fdc0a3bc178895238db5df0cc4c24570c2a5d8770d5a031d50c177fec67aa37"
+    },
+    {
+      "name": "tower_armorbreaker",
+      "category": "tower",
+      "kind_index": 3,
+      "file": "tower_armorbreaker.png",
+      "source": "/Users/domi/.codex/generated_images/01a1c6b8-3c29-7cb3-9635-5eb91428c7a1/exec-74c7b031-3c2f-4d5d-a1c7-23c4757f3be3.png",
+      "reference": "/Users/domi/.codex/generated_images/01a1c6b8-3c29-7cb3-9635-5eb91428c7a1/exec-7d49a4a0-09e0-45b9-93ff-56c301c8a303.png",
+      "prompt": "Use case: stylized-concept. Asset type: production-ready mobile tower-defense game class selection portrait, standalone square raster icon with a genuinely transparent background. Art direction: original premium stylized 3D game illustration, charming and confident rather than childish, chunky expertly designed silhouette, polished hand-painted materials, subtle faceted construction, rounded bevels, strong readable light/dark shapes, warm soft key light from upper left and restrained cool rim light. Three-quarter view, slightly elevated camera, subject centered and fully visible, fills about 78 percent of the square with generous clean transparent padding all around. It must read instantly at 72 pixels, with large meaningful details and minimal tiny texture. Rich saturated class accent colors balanced with charcoal, ivory and warm stone. No text, letters, numbers, logos, card frame, interface, scenery, ground tile, backdrop, cast shadow extending outside subject, or watermark. No imitation of any existing game character. Maintain this same art direction for a cohesive nine-icon set. Input image is an ART STYLE reference only: match premium faceted hand-painted 3D materials, warm lighting and finish, but do not copy the creature, face, eyes or anatomy. Create a static defensive building as specified. Entire building visible with transparent breathing room on all four sides. Subject: The PURPLE ARMOR-BREAKER TOWER: one angular violet defensive railgun turret on a sturdy warm gray stone plinth. Squared beveled purple armored turret housing with exactly TWO long parallel charcoal rail barrels side by side, gold core insert glowing subtly between the rails, restrained ivory edges. Three-quarter view must show both rails clearly. Precise hard-hitting high-tech siege silhouette, long dual rails distinguish it from a single cannon and triple-barrel rapid turret. No tracks, no legs, no face, no eyes, no character, no extra gun.",
+      "transparent_background": true,
+      "visual_review": "Accepted: complete subject, distinct class silhouette, coherent materials, no lettering. Final imported HUD-size review remains with UI owner.",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_zero_fraction": 0.5813,
+      "visible_bounds_alpha_ge_128": [
+        89,
+        139,
+        1088,
+        1167
+      ],
+      "sha256": "2554e2f92fd9382581a3dc22fc288ae6d58941c7e4e1e3f4ae94dc5a090c6627"
+    },
+    {
+      "name": "tower_mine",
+      "category": "tower",
+      "kind_index": 4,
+      "file": "tower_mine.png",
+      "source": "/Users/domi/.codex/generated_images/01a1c6b8-3c29-7cb3-9635-5eb91428c7a1/exec-376136c2-6751-4ad4-a105-8ec30bdac698.png",
+      "reference": "/Users/domi/.codex/generated_images/01a1c6b8-3c29-7cb3-9635-5eb91428c7a1/exec-7d49a4a0-09e0-45b9-93ff-56c301c8a303.png",
+      "prompt": "Use case: stylized-concept. Asset type: production-ready mobile tower-defense game class selection portrait, standalone square raster icon with a genuinely transparent background. Art direction: original premium stylized 3D game illustration, charming and confident rather than childish, chunky expertly designed silhouette, polished hand-painted materials, subtle faceted construction, rounded bevels, strong readable light/dark shapes, warm soft key light from upper left and restrained cool rim light. Three-quarter view, slightly elevated camera, subject centered and fully visible, fills about 78 percent of the square with generous clean transparent padding all around. It must read instantly at 72 pixels, with large meaningful details and minimal tiny texture. Rich saturated class accent colors balanced with charcoal, ivory and warm stone. No text, letters, numbers, logos, card frame, interface, scenery, ground tile, backdrop, cast shadow extending outside subject, or watermark. No imitation of any existing game character. Maintain this same art direction for a cohesive nine-icon set. Input image is an ART STYLE reference only: match premium faceted hand-painted 3D materials, warm lighting and finish, but do not copy the creature, face, eyes or anatomy. Create a static defensive building as specified. Entire building visible with transparent breathing room on all four sides. Subject: The GOLD MINE building: one compact inviting resource extraction building, not an explosive weapon. A dark cave shaft opening framed by chunky honey-brown timber posts, low mound of warm gray faceted stones, prominent golden ore crystals at the entrance, one small wooden hoist wheel over the shaft and one tiny charcoal ore cart full of three gold chunks beside the entrance. Simple organized silhouette with a clear dark central tunnel. Premium original stylized 3D miniature. No flag, no sign, no lettering, no person, no weapon, no giant terrain tile. The rocky mound and wooden shaft are integral to the building.",
+      "transparent_background": true,
+      "visual_review": "Accepted: complete subject, distinct class silhouette, coherent materials, no lettering. Final imported HUD-size review remains with UI owner.",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_zero_fraction": 0.5178,
+      "visible_bounds_alpha_ge_128": [
+        79,
+        123,
+        1175,
+        1130
+      ],
+      "sha256": "4ad294c0983096a5443e72cea2150b24821d798897948cd33fc4d43262d5acf4"
+    }
+  ],
+  "external_candidates_reviewed": [
+    {
+      "source": "https://kenney.nl/assets/tower-defense-kit",
+      "license": "CC0",
+      "decision": "Not incorporated; generated class-specific portraits selected for visual consistency."
+    },
+    {
+      "source": "https://quaternius.com/packs/ultimatedanimatedcharacter",
+      "license": "CC0",
+      "decision": "Not incorporated; no third-party files in this generated set."
+    }
+  ]
+}

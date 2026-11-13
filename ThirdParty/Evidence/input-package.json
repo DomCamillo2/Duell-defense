@@ -1,0 +1,16 @@
+{
+  "name": "com.unity.inputsystem",
+  "version": "1.20.1",
+  "unity": "6000.0",
+  "unityRelease": null,
+  "dependencies": {
+    "com.unity.modules.uielements": "1.0.0"
+  },
+  "dist": {
+    "shasum": "2436e68c60c469edbccef8f6b3c319b9441f4675",
+    "tarball": "https://download.packages.unity.com/com.unity.inputsystem/-/com.unity.inputsystem-1.20.1.tgz"
+  },
+  "license": null,
+  "retrieved": "2026-11-10",
+  "source": "https://packages.unity.com/com.unity.inputsystem"
+}

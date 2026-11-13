@@ -1,0 +1,54 @@
+{
+  "version": "0.14.1",
+  "core_version": "defense-duell-core-v2.3",
+  "wire_version": 8,
+  "status": "Python sources frozen; 99 regression tests passed",
+  "python_tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s Tools/NetworkTests -p 'test_comparison*.py'",
+    "cwd": "/Users/domi/Documents/Handygame",
+    "exit_code": 0,
+    "total": 99,
+    "passed": 99,
+    "historical_unchanged": 50,
+    "wire8": 49,
+    "seconds": 6.121,
+    "execution_session_id": 70103,
+    "execution_output_chunks": [
+      "1dbe36",
+      "9f779c"
+    ]
+  },
+  "saved_output": {
+    "file": "python-evidence-v141.txt",
+    "sha256": "55eb46e268cbfba03dddd4c1506318c3e0154fff07fc5e9e0a8027c4a364e917",
+    "stream": "Combined tool stdout/stderr; unittest normally writes its progress to stderr",
+    "provenance": "Concatenated verbatim output from the two recorded execution chunks; saved after completion without rerunning tests"
+  },
+  "source_sha256": {
+    "compare_v6.py": "3c07071088c36175ac5d5e58736f6954d91e36592bee1d8562357fa013198a4a",
+    "compare_v7.py": "732d4e667087cc60ae4b2fc0432b8f3f366647013c8a9e8fc115f5bc6cfee6e2",
+    "compare_v8.py": "c11235852ecc3346908ef913b905e65463441fd42dd2c3fabac11d05e96aa5ba",
+    "run_lan.py": "810ca08d8b02cc9325fff6082cc34b99e6354b7e98286c8db8494a1045b1f9e0",
+    "run_relay.py": "272dbaf04083155562b4f9cece361f62811c4295647e5fd54842b840277d67c3",
+    "snapshot_v6.py": "cf9a91db7e56f2b94bca66e612b888b13fcd834723cb0449feed10d4fff7d303",
+    "snapshot_v7.py": "b4ed56d3ea94ddb8a681dcf6e30086d334e63989029463eeb5ff4aceebf7feb5",
+    "snapshot_v8.py": "216d7388c9d1cb402cfc86a24f1ad13dcea842d6ff2f9078ea5b1635fcdbde43",
+    "test_comparison.py": "59c660bd48f49e28f9870ea8dc43444a4d2552f01c96f69626c66ec1c9edeb00",
+    "test_comparison_clock_windows.py": "e1378b3a036a2d0b55f2f0d7f1f1ccf44e4a7b7c2036493329358314c8ad5c6a",
+    "test_comparison_economy11.py": "12a7b81c31d33fa47358b001ab812d3ad117e101bb517cf40586e1c3f75d8f4e",
+    "test_comparison_v7.py": "e34f6a0fb7e3db38395788418a9ca05f69f81bad44a50b692d771cc413360697",
+    "test_comparison_v8.py": "cfef4d217c3de7d0d2154b8b7183b3c40351c32dacc29d7040c806900198ddf6",
+    "udp_proxy.py": "05bc5a67990a3adb0dd93d26e25df26a95ff6659019419b3a868f5c8ee396f84"
+  },
+  "historical_evidence": {
+    "file": "python-evidence.json",
+    "sha256": "ab3c8a75ce3dbed400e2809c068e69b956dbc3f7aad7ef954af8027b31a9b49e",
+    "unchanged": true
+  },
+  "boundaries": [
+    "Python regression evidence only; no Unity execution/build by this owner",
+    "No actual LAN/Relay transport or Android/device test is established by this test run",
+    "200-wave startup-only comparisons explicitly do not prove completion of 200 waves",
+    "Historical 0.14 evidence remains separate and unchanged"
+  ]
+}

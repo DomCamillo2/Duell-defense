@@ -1,0 +1,8 @@
+{
+  "name": "DefenseDuell.Networking.Tests",
+  "rootNamespace": "DefenseDuell.Networking.Tests",
+  "references": ["DefenseDuell.Core", "DefenseDuell.Networking"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

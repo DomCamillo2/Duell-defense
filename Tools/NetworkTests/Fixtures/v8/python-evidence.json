@@ -1,0 +1,81 @@
+{
+  "status": "Python sources frozen; codec and model checks passed; actual transport not executed by this owner",
+  "python_tests": {
+    "total": 86,
+    "historical_unchanged": 50,
+    "new": 36,
+    "passed": 86,
+    "seconds": 5.325,
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s Tools/NetworkTests -p 'test_comparison*.py'"
+  },
+  "golden": {
+    "file": "golden.json",
+    "sha256": "6cd09d3492862a358b02a46ee326c5fea7d30cac9a426201d075fecbc2456caf",
+    "snapshot_sha256": "42d42d036cc8c5cf3387a0df1054c69913a61522800a0f3fb2033fa5f40e0c6f",
+    "byte_identical_to_original_harness_output": true,
+    "identical_to_embedded_regression_snapshot": true,
+    "waves": 3,
+    "configured_start_gold": "10000000000000000000000000000000000000123",
+    "python_decode_and_validate_passed": true,
+    "minimal_reproduction_project_executed": false
+  },
+  "model_comparisons": [
+    {
+      "case": "default",
+      "comparison_passed": true,
+      "rounds": 2,
+      "last_configured_wave_proven": false,
+      "scope": "Current production Core and Driver model; no transport",
+      "report_sha256": {
+        "host": "9d744d13de3b5a47a1dc7ca6f93f3b8996a154151facf3c485c49979b3766d4e",
+        "client": "6ab61d8a0be8b1432247385d3612cf4a4726f86f1cc9432f08f52fd07707c003"
+      }
+    },
+    {
+      "case": "rules1",
+      "comparison_passed": true,
+      "rounds": 2,
+      "last_configured_wave_proven": true,
+      "scope": "Current production Core and Driver model; no transport",
+      "report_sha256": {
+        "host": "d91bba259cfb7a9f1ee3866de5bdf4d0d6e74319893f42681b0cafa5d90d8f3a",
+        "client": "50ff44f096f7f68c679e4894de30c940f05fc02595c921e9afc31e8b8a9ed9d3"
+      }
+    },
+    {
+      "case": "rules3",
+      "comparison_passed": true,
+      "rounds": 2,
+      "last_configured_wave_proven": true,
+      "scope": "Current production Core and Driver model; no transport",
+      "report_sha256": {
+        "host": "331d0b9744d50f8f6e3d5ecee22fe47cae79968e156412af802946ad2a53e376",
+        "client": "3870b8ac949e4b829714748ee547f8f24e669556bbb80b71dbad47aaeb0b4bdb"
+      }
+    },
+    {
+      "case": "rules3-270",
+      "comparison_passed": true,
+      "rounds": 2,
+      "last_configured_wave_proven": true,
+      "scope": "Current production Core and Driver model; no transport",
+      "report_sha256": {
+        "host": "150362bb398c84b9a85b9d705aef4429908d103ce768c7cd90f98a463b554cbb",
+        "client": "9db3dc2d22469dafb6a36245d9614f30d29294dcfd578ccff2b97c0cfbe2ebb0"
+      }
+    }
+  ],
+  "source_sha256": {
+    "snapshot_v8.py": "be339046f5f16b471b6d92b32b39f7819c0aafb722b848432e8c8c6671ff0f02",
+    "compare_v8.py": "2a30d26f8e7d8f21b963c50a8e2e61197bfd1c49d288cfe6a60bfc7e5b474846",
+    "test_comparison_v8.py": "8c388b861b0b9dc3194887115af52353e9b0994188b65e0b03abc8997e4ad946",
+    "run_lan.py": "0ed139b46485a8d81e7ab4dbb85e3bec98704c96c0c13f66d73669ddbc784323",
+    "run_relay.py": "68b3227fedee457a58a0a0d83e725a296bcbba0b61fce1bf6928381ab9977a72"
+  },
+  "boundaries": [
+    "No Unity execution/build by Python owner",
+    "No actual LAN/Relay test by Python owner",
+    "No Android/device/human/separate-network assertion",
+    "No re-use of historical passing reports as new transport evidence"
+  ]
+}

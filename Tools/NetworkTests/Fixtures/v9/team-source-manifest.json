@@ -1,0 +1,23 @@
+{
+  "Assets/Core/BotBrain.cs": "172735c2f6125fcfebee1c0e139e52cb1b9cf70af6724c487cc175543ce43c3a",
+  "Assets/Core/EconomyRules.cs": "a6dc52d6988a837afae8408954f20a38797909e4a76df57829b8795d5408fa5c",
+  "Assets/Core/GameContent.cs": "01f6f55393a6c76cdd79f8432d4c9735cd93536ccf10d2ff57d0a3d9d52c3540",
+  "Assets/Core/MapCatalog.cs": "e810bdfc91d98a3ad25582fb88297d9c39d1c52cda0cc01b6c23f647f0ecccb8",
+  "Assets/Core/MatchRules.cs": "46994efff43b60647665c3debc4fc004a42f5a4bab954483bc4761da38a108c2",
+  "Assets/Core/MatchSimulation.cs": "09df7196562c65c473ddb6d6af2d03e8d7f6c31b34d18e444583be9241cdfe0b",
+  "Assets/Core/MatchState.cs": "5c6aa4564a722b06b674d3ccbf9d93e73c85bba7af3dd98e572e1a9a79d3cbe6",
+  "Assets/Core/PlacementValidator.cs": "3fd2cdf4bd05cf4f373055f2cc8fa68797545f0267f899b157e74a22f21bc0fe",
+  "Assets/Core/SendQueueForecast.cs": "b6ed0593b08c1ff6309ef2dd92cbc70590efa9e534f3dbc22cc8f700e27dc5af",
+  "Assets/Core/SendRules.cs": "44d7f0940e8ebad9a9e1d9b4878dad58b4ec4663521093209f2a773fa04be3a4",
+  "Assets/Core/TowerUpgradeRules.cs": "f4b8637772f0e43a5b2c34c029a31c7b9be434b6ec1a6aaf28135f48eb3ae75b",
+  "Assets/Core/UnitResearchRules.cs": "578a4505891383b00bc19af252be0b3c290c5850630eebcbf4e9f5ab6eb1de56",
+  "Assets/Core/WaveLedger.cs": "f410333b323ab5a3574502297c716697edb59511eaf432134164730b544382cf",
+  "Assets/Core/WaveRules.cs": "8e8a5d00fa5ff79118171b8880e41e46a3b1e50de83692a6b239259d237d0300",
+  "Assets/Networking/WireProtocol.cs": "c4d55a351e63dd93b8ac2a0036954e90edbb5becad69bbef76aeb575c48213fd",
+  "Assets/Networking/WireSnapshotValidator.cs": "c403e2d9a1d1740ce5fc9f876d2a8fb50bbb13b366213923d9b8bfe72b438cf7",
+  "Assets/Tests/EditMode/Networking/WireFixtures.cs": "811187ed86124ef23df18319f5e7f7037f4e6f2673fe55525b1ce1910f38c533",
+  "Tools/NetworkTests/TeamEvidenceModel15.cs": "a37fb696db8fb4b6e88c88edfe6292be20f52059db3c2fda8dda7dc7e3590c0a",
+  "Assets/Networking/NetworkTestDriver.cs": "7d930e38a6d644cc169cf10ff7407d2b609b8e5ef4e316acaf9d4209c82b9227",
+  "Assets/Networking/TeamNetworkTestDriver.cs": "a1cf1e43efd6a9d18c7ff3a79ec66c2593e3b17cb672fefe158e7c2b57f5a7e9",
+  "Tools/NetworkTests/run_team_model15.py": "b3ed7c57f76e7fc560d1ec9113e1676f8bf77142e9d4a8feeefadfd1429dea83"
+}

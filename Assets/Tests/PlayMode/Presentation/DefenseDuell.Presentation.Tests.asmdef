@@ -1,0 +1,7 @@
+{
+  "name": "DefenseDuell.Presentation.Tests",
+  "rootNamespace": "DefenseDuell.Presentation.Tests",
+  "references": ["DefenseDuell.Core", "DefenseDuell.Networking", "DefenseDuell.Presentation", "Unity.ugui", "Unity.InputSystem"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

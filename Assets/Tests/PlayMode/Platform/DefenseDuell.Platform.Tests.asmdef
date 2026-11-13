@@ -1,0 +1,6 @@
+{
+  "name": "DefenseDuell.Platform.Tests",
+  "references": ["DefenseDuell.Core", "DefenseDuell.Progression", "DefenseDuell.Networking", "DefenseDuell.Presentation", "DefenseDuell.Platform", "Unity.ugui"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

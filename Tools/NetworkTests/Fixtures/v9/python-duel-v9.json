@@ -1,0 +1,36 @@
+{
+  "command": [
+    "python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "Tools/NetworkTests",
+    "-p",
+    "test_comparison*.py"
+  ],
+  "env": {
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "cwd": "/Users/domi/Documents/Handygame",
+  "exit_code": 0,
+  "source_sha256": {
+    "Tools/NetworkTests/compare_duel_v9.py": "a0f0b42a32f945e4b59ddde2b220bd987ebbb4d6832430db5cbf5c65b0089590",
+    "Tools/NetworkTests/snapshot_v9.py": "dd92b5d73c11d1e0d8b0cdc80eca2013fc86cbed62bb7c290001ebed67809bed",
+    "Tools/NetworkTests/snapshot_v8.py": "216d7388c9d1cb402cfc86a24f1ad13dcea842d6ff2f9078ea5b1635fcdbde43",
+    "Tools/NetworkTests/snapshot_v7.py": "b4ed56d3ea94ddb8a681dcf6e30086d334e63989029463eeb5ff4aceebf7feb5",
+    "Tools/NetworkTests/compare_v8.py": "c11235852ecc3346908ef913b905e65463441fd42dd2c3fabac11d05e96aa5ba",
+    "Tools/NetworkTests/compare_v7.py": "732d4e667087cc60ae4b2fc0432b8f3f366647013c8a9e8fc115f5bc6cfee6e2",
+    "Tools/NetworkTests/run_lan.py": "71cd98086ec79923c31c9d5961e7fc56f7add471a493d2fec67b9d0d456f1381",
+    "Tools/NetworkTests/run_relay.py": "af5d88003faa510cc190f4aebb5810f52c7a41872c5fe9e291c1f3db7a09642c",
+    "Tools/NetworkTests/test_comparison.py": "59c660bd48f49e28f9870ea8dc43444a4d2552f01c96f69626c66ec1c9edeb00",
+    "Tools/NetworkTests/test_comparison_clock_windows.py": "e1378b3a036a2d0b55f2f0d7f1f1ccf44e4a7b7c2036493329358314c8ad5c6a",
+    "Tools/NetworkTests/test_comparison_duel_v9.py": "9022467c21239aa56ee40f587585c348269044e214d1a140ffdc970259c3da21",
+    "Tools/NetworkTests/test_comparison_economy11.py": "12a7b81c31d33fa47358b001ab812d3ad117e101bb517cf40586e1c3f75d8f4e",
+    "Tools/NetworkTests/test_comparison_v7.py": "e34f6a0fb7e3db38395788418a9ca05f69f81bad44a50b692d771cc413360697",
+    "Tools/NetworkTests/test_comparison_v8.py": "cfef4d217c3de7d0d2154b8b7183b3c40351c32dacc29d7040c806900198ddf6",
+    "Tools/NetworkTests/Fixtures/v9/duel-goldens.json.gz": "a65e0e901306d37f5b41bb3ee5894ecb0db565415d57e5fa3f06e45f4f8ddd32"
+  },
+  "sources_unchanged_during_run": true,
+  "scope": "Python independent evidence comparison; existing 99 historical regressions plus 28 new actual-C#-golden/mutation cases. No live transport."
+}

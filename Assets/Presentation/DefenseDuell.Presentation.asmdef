@@ -1,0 +1,12 @@
+{
+  "name": "DefenseDuell.Presentation",
+  "rootNamespace": "DefenseDuell.Presentation",
+  "references": [
+    "DefenseDuell.Core",
+    "DefenseDuell.Networking",
+    "Unity.ugui",
+    "Unity.InputSystem",
+    "DefenseDuell.Progression"
+  ],
+  "autoReferenced": true
+}

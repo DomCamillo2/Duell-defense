@@ -1,0 +1,6 @@
+{
+  "name": "DefenseDuell.Content",
+  "rootNamespace": "DefenseDuell.Content",
+  "references": ["DefenseDuell.Core"],
+  "autoReferenced": true
+}

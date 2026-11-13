@@ -1,0 +1,7 @@
+{
+  "name": "DefenseDuell.Networking.PlayMode.Tests",
+  "rootNamespace": "DefenseDuell.Networking.Tests",
+  "references": ["DefenseDuell.Core", "DefenseDuell.Networking"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

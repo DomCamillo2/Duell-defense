@@ -1,0 +1,15 @@
+{
+  "name": "DefenseDuell.Core.Tests",
+  "rootNamespace": "DefenseDuell.Tests",
+  "references": ["DefenseDuell.Core"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

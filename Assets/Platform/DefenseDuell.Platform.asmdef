@@ -1,0 +1,12 @@
+{
+  "name": "DefenseDuell.Platform",
+  "rootNamespace": "DefenseDuell.Platform",
+  "references": [
+    "DefenseDuell.Core",
+    "DefenseDuell.Content",
+    "DefenseDuell.Networking",
+    "DefenseDuell.Presentation",
+    "DefenseDuell.Progression"
+  ],
+  "autoReferenced": true
+}

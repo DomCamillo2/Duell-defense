@@ -1,0 +1,16 @@
+{
+  "name": "DefenseDuell.Editor",
+  "rootNamespace": "DefenseDuell.Editor",
+  "references": [
+    "DefenseDuell.Core",
+    "DefenseDuell.Content",
+    "DefenseDuell.Networking",
+    "DefenseDuell.Presentation",
+    "DefenseDuell.Platform",
+    "DefenseDuell.Intro"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": true
+}
