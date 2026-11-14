@@ -18,6 +18,8 @@ Basis: Version 0.16 ist gebaut und auf main verfügbar. Sie hat persönliche Spi
 - [ ] HUD, Drag, Gegneransicht und Besitzerkennzeichnung anpassen; persönliche Lobbyauswahl deutlich „Deine Türme für dieses Match“ nennen.
 - [ ] Sendeeinkommen nach jedem tatsächlichen Ausmarsch ohne bisherigen 3-G/s-Cap weiterwachsen lassen; Reservierung, Abbruch und Replay nicht doppelt vergüten.
 - [ ] Gold für jeden Kill einschließlich neutraler Gegner und Bosse exakt einmal dem Turmbesitzer geben; kleine Einkommenszuwächse im HUD sichtbar machen.
+- [ ] Team-Wellenvorschau mit effektiven Team-LP und vollständigen Spawn-Income-/Kopfgeldinfos ergänzen.
+- [ ] Zusätzlichen lokalen0.18-/Wire12-Quellstand und Zuständigkeiten vor weiterer Integration abgleichen.
 - [ ] Neue Core-, native UI- und echte 4/6-Prozess-LAN-/Relay-Tests einschließlich Baukonflikt und gemeinsamer Feldansicht bestehen.
 - [ ] Erst danach APK 0.17 / Android-Code 18 bauen, Signatur, Hash und Quellbindung prüfen und ausliefern.
 - [ ] Spätere Geräteabnahme: Android-Touch/Audio/Video, zwei Menschen und 15-Minuten-Leistung/Thermik.
