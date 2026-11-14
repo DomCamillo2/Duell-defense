@@ -16,6 +16,8 @@ Basis: Version 0.16 ist gebaut und auf main verfügbar. Sie hat persönliche Spi
 - [ ] Teamdruck, Boss-LP und Basis-Schaden für mehrere Bauende abstimmen; persönliche Wallets, Forschung, Loadouts, Kaufrechte und eindeutiges Kopfgeld erhalten.
 - [ ] Wire11 und Snapshotprüfung auf Feld-/Owner-Semantik migrieren; Ready, Eliminierung und Revanche prüfen.
 - [ ] HUD, Drag, Gegneransicht und Besitzerkennzeichnung anpassen; persönliche Lobbyauswahl deutlich „Deine Türme für dieses Match“ nennen.
+- [ ] Sendeeinkommen nach jedem tatsächlichen Ausmarsch ohne bisherigen 3-G/s-Cap weiterwachsen lassen; Reservierung, Abbruch und Replay nicht doppelt vergüten.
+- [ ] Gold für jeden Kill einschließlich neutraler Gegner und Bosse exakt einmal dem Turmbesitzer geben; kleine Einkommenszuwächse im HUD sichtbar machen.
 - [ ] Neue Core-, native UI- und echte 4/6-Prozess-LAN-/Relay-Tests einschließlich Baukonflikt und gemeinsamer Feldansicht bestehen.
 - [ ] Erst danach APK 0.17 / Android-Code 18 bauen, Signatur, Hash und Quellbindung prüfen und ausliefern.
 - [ ] Spätere Geräteabnahme: Android-Touch/Audio/Video, zwei Menschen und 15-Minuten-Leistung/Thermik.
@@ -39,3 +41,12 @@ Kein neuer Pflichtumfang aus bloßen Vorschlägen: Kasernen bleiben ein Plan; Re
 - Android-Gerätestart und Leistung, zwei menschliche Spieler und getrennte Internetzugänge werden gesondert geprüft.
 - iOS-Vorbereitung ist vorhanden; SDK/Unitymodul/Xcode, Signierung und iPhone fehlen.
 - Kein Storeupload, Billing, kostenpflichtiger Plan oder kostenpflichtiges Asset beauftragt.
+
+## Visueller Rework – eigener Auftrag
+
+- [x] Grafik-/GUI-Recherche und kompaktes Übergabepaket für den gewünschten externen Claude-Rework vorbereitet.
+- [ ] Zuerst einen gemeinsamen Stilbenchmark für Kanone, Elite, Kartenecke, Sendekarte und Dialog ausarbeiten lassen.
+- [ ] Kandidaten auf Lesbarkeit im Spielzoom, Eigentümerfarben, Touchflächen, Safe Areas, Materialstil und mobile Kosten prüfen.
+- [ ] Übernahme der angenommenen Kandidaten und Modell-/Porträt-Neubakes gesondert koordinieren. Die persönliche Turmauswahl, Spielregeln und Wirtschaft dabei erhalten.
+
+Die externe Ausführung und die Übernahme neuer Grafikassets sind noch nicht als erledigt markiert. Das bestehende 0.17-Integrationsfenster bleibt maßgeblich.
